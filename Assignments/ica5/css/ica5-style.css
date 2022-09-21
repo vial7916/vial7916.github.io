@@ -49,12 +49,15 @@ h1{
 body{
   background: top / contain
               no-repeat
-              url("../img/top-image.png")
-  
+              url("../img/top-image.png"),
+
+              bottom / contain
+              no-repeat
+              url("../img/bottom-image.png");
 
 
 
-  background-color: #fff;
-  border-top: 1mm solid red;
-  border-bottom: 1mm solid red;
+              background-color: #fff;
+              border-top: 1mm solid red;
+              border-bottom: 1mm solid red;
 }

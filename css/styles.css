@@ -1,5 +1,7 @@
-body{
+html{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1em;
+    background-color: white;
 }
 
 h1{
@@ -22,11 +24,26 @@ p{
 }
 
 hr{
-    color: c96079
+    height: 1px;
+    background-color: #c96079;
+    border:none;
 }
 
-article img{
-    max-width: 10 ems;
-    max-height: 10 ems;
+img{
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
     float: right;
+}
+
+a:link{
+    color: #443866;
+}
+
+a:hover{
+    color: #8a4979;
+}
+
+a:visited{
+    color: #c96079
 }

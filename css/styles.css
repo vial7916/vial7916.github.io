@@ -1,0 +1,32 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    color: #443866;
+}
+
+h2{
+    font-size: 45px;
+    color: #8a4979;
+}
+
+h3{
+    font-size: 30px;
+    color: #c96079;
+}
+
+p{
+    font-size: 15px;
+}
+
+hr{
+    color: c96079
+}
+
+article img{
+    max-width: 10 ems;
+    max-height: 10 ems;
+    float: right;
+}

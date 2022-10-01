@@ -48,4 +48,156 @@ a:visited{
     color: #c96079
 }
 
-@media only screen and (max-width )
+ul {
+    background-color: #FFBC60;
+    padding: .5em;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+@media only screen and (max-width: 700px)
+{
+    body {
+        margin: 0;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+    
+    html{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 1em;
+        background-color: white;
+    }
+    
+    h1{
+        font-size: 60px;
+        color: #443866;
+    }
+    
+    h2{
+        font-size: 45px;
+        color: #8a4979;
+    }
+    
+    h3{
+        font-size: 30px;
+        color: #c96079;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+    
+    hr{
+        height: 1px;
+        background-color: #c96079;
+        border:none;
+    }
+    
+    img{
+        width: 40%;
+        height: 40%;
+        float: right;
+    }
+    
+    a:link{
+        color: #443866;
+    }
+    
+    a:hover{
+        color: #8a4979;
+    }
+    
+    a:visited{
+        color: #c96079
+    }
+    
+    ul {
+        background-color: #FFBC60;
+        padding: .5em;
+        position: sticky;
+        top: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+    }
+
+@media only screen and (max-width: 400px)
+{
+    body {
+        margin: 0;
+    }
+
+    .nav {
+        flex-direction: row;
+    }
+    
+    html{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 1em;
+        background-color: white;
+    }
+    
+    h1{
+        font-size: 60px;
+        color: #443866;
+    }
+    
+    h2{
+        font-size: 45px;
+        color: #8a4979;
+    }
+    
+    h3{
+        font-size: 30px;
+        color: #c96079;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+    
+    hr{
+        height: 1px;
+        background-color: #c96079;
+        border:none;
+    }
+    
+    img{
+        width: 40%;
+        height: 40%;
+        float: right;
+    }
+    
+    a:link{
+        color: #443866;
+    }
+    
+    a:hover{
+        color: #8a4979;
+    }
+    
+    a:visited{
+        color: #c96079
+    }
+    
+    ul {
+        background-color: #FFBC60;
+        padding: .5em;
+        top: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+    }

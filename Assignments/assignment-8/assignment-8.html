@@ -8,31 +8,214 @@
     <title>Silly story generator</title>
 
     <style>
-
+      
+@media only screen and (min-width: 701px)
+{
     body {
-      font-family: helvetica, sans-serif;
-      width: 350px;
+        margin: 0;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     }
 
-    label {
-      font-weight: bold;  
+    .container{
+        width:100%;
     }
 
-    div {
-      padding-bottom: 20px;
+    .self{
+        width:50%;
+        float:right;
     }
 
-    input[type="text"] {
-      padding: 5px;
-      width: 150px;
+    .img{
+        margin-top: 20px;
+        width:50%;
+        height:50%;
+        float:right;
+        border:1px solid black;
     }
 
-    p {
-      background: #FFC125;
-      color: #5E2612;
-      padding: 10px;
-      visibility: hidden;
+    .about1, .about2{
+        text-align:center;
+        vertical-align: middle;
+        margin-top:10%;
     }
+    .welc, .rest, .writ, .conta{
+        margin-left:50px;
+        color: #8a4979;
+    }
+
+    .Resume{
+        display:flex;
+        justify-content: center;
+    }
+
+    .resum{
+        border: 1px solid black;
+    }
+    .content{
+        width:50%;
+        float:left;
+    }
+
+    .navi {
+    width: 50%;
+    float: right;
+
+    }
+
+
+    .nav{
+    list-style:none;
+    float: right;
+    display: flex;
+    justify-content:space-between;
+    padding: .5em 1em;
+    text-decoration: none;
+    }
+
+    .navibar {
+        width: 100%;
+        float: left;
+        position: sticky;
+        border-bottom: 1px solid #443866;
+    }
+
+    .name{
+        width:50%;
+        float:left;
+        color: #443866;
+    }
+    
+    html{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 1em;
+        background-color: white;
+        margin:0;
+    }
+
+    a:link{
+        color: #443866;
+        text-decoration:none;
+    }
+    
+    a:hover{
+        color: #8a4979;
+    }
+    
+    a:visited{
+        color: #c96079
+    }
+    
+    .writin, .contali{
+        margin-top: 150px;
+        margin-left: 50px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 700px) 
+{ 
+    body {
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .container{
+        width:100%;
+    }
+
+    .self{
+        width:50%;
+        float:right;
+    }
+
+    .img{
+        margin-top: 20px;
+        width:50%;
+        height:50%;
+        float:right;
+        border:1px solid black;
+    }
+
+    .about1, .about2{
+        text-align:center;
+        vertical-align: middle;
+        margin-top:10%;
+    }
+    .welc, .rest, .writ, .conta{
+        margin-left:50px;
+        color: #8a4979;
+    }
+
+    .Resume{
+        display:flex;
+        justify-content: center;
+    }
+
+    .resum{
+        border: 1px solid black;
+    }
+    .content{
+        width:50%;
+        float:left;
+    }
+
+    .navi {
+    width: 50%;
+    float: right;
+
+    }
+
+
+    .nav{
+    list-style:none;
+    float: right;
+    display: flex;
+    justify-content:space-between;
+    padding: .5em 1em;
+    text-decoration: none;
+    }
+
+    .navibar {
+        width: 100%;
+        float: left;
+        position: sticky;
+        border-bottom: 1px solid #443866;
+    }
+
+    .name{
+        width:50%;
+        float:left;
+        color: #443866;
+    }
+
+    html{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 1em;
+        background-color: white;
+        margin:0;
+    }
+
+    a:link{
+        color: #443866;
+        text-decoration:none;
+    }
+
+    a:hover{
+        color: #8a4979;
+    }
+
+    a:visited{
+        color: #c96079
+    }
+
+    .writin, .contali{
+        margin-top: 150px;
+        margin-left: 50px;
+        padding-bottom: 20px;
+    }
+}
 
     </style>
   </head>

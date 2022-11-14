@@ -1,0 +1,34 @@
+body{
+    background-color: #F5876B;
+}
+
+.Enter {
+    color: #443866;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+;}
+
+.slidecontainer{
+    color: #8A4979;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.slider-submit-button1{
+    color: black;
+    background-color: #ffbc60;
+    font-weight: bold;
+}
+
+.slider-submit-button2{
+    color: black;
+    background-color: #ffbc60;
+    font-weight: bold;
+}
+
+.slider-submit-button3{
+    color: black;
+    background-color: #ffbc60;
+    font-weight: bold;
+}

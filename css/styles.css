@@ -33,8 +33,11 @@
     }
 
     .Resume{
-        display:flex;
-        justify-content: center;
+        padding-top: 11%;
+    }
+
+    .ResumC{
+        padding-left: 30%;
     }
 
     .resum{
@@ -95,13 +98,15 @@
     
     .writin, .writin2, .writin3{
         padding-top: 20px ;
-        padding-bottom: 20px;
+    }
+
+    .Rcontali{
+        width: 200%;
     }
 
     .contali{
-        margin-top: 150px;
-        margin-left: 50px;
-        padding-bottom: 20px;
+        text-align: center;
+        margin-top: 15%;
     }
 
     .aboutport, .aboutport2, .aboutport3{
@@ -115,18 +120,28 @@
         overflow: scroll;
     }
 
-.containerr{
-    width:50%;
-    text-align: left;
-}
+    .containerr{
+        width: 60%;
+        text-align: left;
+    }
 
-.container3{
-    width:50%;
-    float:right;
-    margin-top:-200px;
+    .container3{
+        width:50%;
+        float:right;
+        margin-top:-380px;
+        height: 600px;
+        overflow: scroll;
+    }
 
+    .JeffB, .PP, .GA, .OCG, .IG, .FP{
+        width: 100%;
+        height: 100%;
+    }
 
-}
+    .writinn{
+        width: 100%;
+        padding-top: 9%;
+    }
 }
 
 @media screen and (max-width: 700px) 
